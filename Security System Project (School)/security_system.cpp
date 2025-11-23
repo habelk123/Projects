@@ -1,3 +1,15 @@
+
+/**********************************************************************
+ *  Project: Mock Security System (STM32F429ZI)
+ *  Author: Habel Kingson
+ *  Institution: McMaster University
+ *  Course: Embedded Systems Design I
+ *  Semester: Winter 2025
+ *  
+ *  NOTE: This code is part of an academic project. 
+ *  Sharing or republishing without attribution is not permitted.
+ **********************************************************************/
+
 #include "mbed.h"
 #include "LCD_DISCO_F429ZI.h"
 #include "TS_DISCO_F429ZI.h"
