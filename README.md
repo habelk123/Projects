@@ -50,3 +50,6 @@ It's a mock security-system that utilizes a STM32F429ZI Discovery Board along wi
  - Interrupt-driven button's to set states and enable functionality of the system
  - Timeout's/Ticker's to handle timing-sensitive logic, and ensure appropriate stateflow
  - Custom sound-sensor logic to handle sensing through voltage-spike detection
+
+# 👓 Project 3: Motion Tracker with OpenCV
+
