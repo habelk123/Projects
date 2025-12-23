@@ -5,13 +5,13 @@
 ##  To run the program:
 1. Clone the repository.
 2. Install dependencies 
-'''bash
+```bash
 pip install opencv-python numpy
-'''
+```
 3. Run the project file:
-'''bash
+```bash
 motion_tracker_project.py
-'''
+```
 
      
       
