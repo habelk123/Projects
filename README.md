@@ -1,6 +1,6 @@
 Fun Projects I've Done:
 
-# ⛈️ Project 1: Weather Station Display
+# ⛈️ Weather Station Display
 
 This is the first project I've ever done with ESP32 and the Arduino Framework. 
 It displays the time in an accurate, real time manner as well as fetches local weather updates such as temperature and condition.
@@ -8,14 +8,14 @@ It displays the time in an accurate, real time manner as well as fetches local w
 ## 🧰 Tool's
  - ArduinoIDE
  - ESP32 DevKit V1
- - SSD1306 Oled Display
+ - SSD1306 OLED Display
 
 ## 💡 Features
  - Displays time using RTC on OLED
  - Displays weather info from OpenWeatherMap on OLED
  - Program structured through RTOS
 
-# ⏲️ Project 2: ESP32 Reaction Test Timer
+# ⏲️ ESP32 Reaction Test Timer
 
 This project involves the ESP32 and Arduino Framework/C++ to implement a fun little reaction test timer.
 It displays the users best and current reaction time to a toggled LED light, and displays on an OLED screen. 
@@ -51,5 +51,21 @@ It's a mock security-system that utilizes a STM32F429ZI Discovery Board along wi
  - Timeout's/Ticker's to handle timing-sensitive logic, and ensure appropriate stateflow
  - Custom sound-sensor logic to handle sensing through voltage-spike detection
 
-# 👓 Project 3: Motion Tracker with OpenCV
+# 👓 Motion Tracker with OpenCV
+
+This project highlights my first time learning/working with OpenCV and classical computer vision concepts. More specifically, this project 
+tracks the user's movement through their webcam, by implementing the classical CV pipeline for motion detection (image preprocessing -> binary motion mask -> bounding box contouring -> centroid tracking).
+
+## 🧰 Tool's
+ - Python OpenCV
+ - Personal webcam
+
+## 💡 Features
+ - Image preprocessing with grayscale + Gaussian blur
+ - Binary motion mask created by applying frame differencing and pixel thresholding
+ - Cleans regions of motion through morphology (Opening -> Closing) to apply filtered contouring (motion detection)
+ - Applies bounding box's to clearly localize/visualize motion regions
+ - Computes centroids (centre of motion regions) and stores the previous centroid to enable motion tracking
+ - Displays bounding box's, centroids, and tracking lines on live camera feed to show how motion is perceived in real-time
+ - Added overlay to indicate when program is actively tracking vs when it is idle
 
