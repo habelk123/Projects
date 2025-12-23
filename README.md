@@ -1,4 +1,4 @@
-Embedded Projects I've Done:
+Fun Projects I've Done:
 
 # ⛈️ Project 1: Weather Station Display
 
