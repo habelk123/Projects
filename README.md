@@ -54,7 +54,7 @@ It's a mock security-system that utilizes a STM32F429ZI Discovery Board along wi
 # 👓 Motion Tracker with OpenCV
 
 This project highlights my first time learning/working with OpenCV and classical computer vision concepts. More specifically, this project 
-tracks the user's movement through their webcam, by implementing the classical CV pipeline for motion detection (image preprocessing -> binary motion mask -> bounding box contouring -> centroid tracking).
+tracks the user's movement through their webcam, by implementing the general CV pipeline for motion detection (image preprocessing -> binary motion mask -> bounding box contouring -> centroid tracking).
 
 ## 🧰 Tool's
  - Python OpenCV
