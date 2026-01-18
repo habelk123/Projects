@@ -71,7 +71,7 @@ It displays the users best and current reaction time to a toggled LED light, and
 
 # 🎛️ LED Command Control 
 
-This project implements a basic commmand protocol for controlled LED's through serial communication. More specifically, it handles individual LED's through different command inputs (e.g ON, OFF, PULSE) to simulate how control
+This project implements a basic commmand protocol for controlling LED's through serial communication. More specifically, it handles individual LED's through different command inputs (e.g ON, OFF, PULSE) to simulate how control
 can be established through a serial communication interface. 
 
 ## 🧰 Tool's
