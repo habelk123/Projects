@@ -68,4 +68,23 @@ tracks the user's movement through their webcam, by implementing the general CV 
  - Computes centroids (centre of motion regions) and stores the previous centroid to enable motion tracking
  - Displays bounding box's, centroids, and tracking lines on live camera feed to show how motion is perceived in real-time
  - Added overlay to indicate when program is actively tracking vs when it is idle
+# ESP32 LED Command Controller
+
+# 🎛️ LED Command Control 
+This project implements a basic commmand protocol for controlled LED's through serial communication. More specifically, it handles individual LED's through different command inputs (e.g ON, OFF, PULSE) to simulate how control
+can be established through a serial communication interface. 
+
+## 🧰 Tool's
+ - ESP32 Dev Board
+ - External LEDs
+ - 220 Ohms Resistors
+ - PlatformIO
+
+## 💡 Features
+ - UART Communication (Recieving/Sending via Serial Monitor)
+ - Custom tokenized-parsing logic based on specified command set
+ - Implemented enums to seperate software and hardware (GPIO) interaction
+ - Use of parallel arrays to handle mapping enums to GPIO pins
+ 
+
 
