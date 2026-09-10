@@ -1,20 +1,5 @@
 Fun Projects I've Done:
 
-# ⛈️ Weather Station Display
-
-This is the first project I've ever done with ESP32 and the Arduino Framework. 
-It displays the time in an accurate, real time manner as well as fetches local weather updates such as temperature and condition.
-
-## 🧰 Tool's
- - ArduinoIDE
- - ESP32 DevKit V1
- - SSD1306 OLED Display
-
-## 💡 Features
- - Displays time using RTC on OLED
- - Displays weather info from OpenWeatherMap on OLED
- - Program structured through RTOS
-
 # ⏲️ ESP32 Reaction Test Timer
 
 This project involves the ESP32 and Arduino Framework/C++ to implement a fun little reaction test timer.
